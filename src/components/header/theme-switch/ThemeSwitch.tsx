@@ -1,4 +1,3 @@
-import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
 import { Switch } from 'antd';
 import './ThemeSwicth.css'
 import { SunIcon } from '../../../assets/icons/SunIcon';

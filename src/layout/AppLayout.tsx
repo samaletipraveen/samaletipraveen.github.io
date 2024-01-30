@@ -1,6 +1,5 @@
 import React from 'react';
 import { Layout, theme } from 'antd';
-import DummyContent from '../components/dummy/DummyContent';
 import useScrollDirection from '../hooks/useScrollDirection';
 import NavBar from '../components/header/navbar/NavBar';
 import './AppLayout.css';

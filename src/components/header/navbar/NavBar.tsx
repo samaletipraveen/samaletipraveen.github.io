@@ -1,6 +1,6 @@
 import Logo from "../logo/Logo";
 import ThemeSwitch from "../theme-switch/ThemeSwitch"
-import { Flex, theme } from 'antd';
+import { Flex } from 'antd';
 
 type NavBarProps = {
     isDarkMode: boolean
@@ -8,8 +8,7 @@ type NavBarProps = {
 }
 
 const NavBar: React.FC<NavBarProps> = ({ isDarkMode, setIsDarkMode }) => {
-    const { useToken } = theme
-    const { token } = useToken()
+
     return (
         <>
             <Flex align="center" justify="space-between">
